@@ -40,6 +40,18 @@ larasail setup php72 # Install with PHP 7.2
 larasail setup php73 # Install with PHP 7.3
 ```
 
+## Creating new Nginx server block
+
+LaraSail also allows you to automate the set up of new Nginx Server Blocks in case that you need to host multiple Laravel applications on the same Droplet.
+
+To create a new Nginx server block run:
+
+  $ larasail host mywebsite.com /var/www/mywebsite
+  
+You can find a video demo on how to install and use LaraSail here:
+
+https://youtu.be/KHFOVDixnyw
+
 ## Creating a New Site
 
 You can now Clone a Repo or Create a New Laravel app within the `/var/www` folder:
